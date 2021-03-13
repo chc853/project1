@@ -28,5 +28,11 @@ repositories {
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
+    //compile('org.projectlombok:lombok')
     compile('org.springframework.boot:spring-boot-starter-test')
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    compile('com.h2database:h2')
+    //gradle 5 사용시 아래와 같은 lombok 설정으로...
+    compileOnly 'org.projectlombok:lombok:1.18.10'
+    annotationProcessor 'org.projectlombok:lombok:1.18.10'
 }
