@@ -3,8 +3,10 @@ com/chc853/book/springboot/domain/user/UserRepository.java
 com/chc853/book/springboot/web/dto/PostsUpdateRequestDto.java
  com.chc853.book.springboot.web.dto.PostsUpdateRequestDto
  com.chc853.book.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
-com/chc853/book/springboot/web/dto/PostsResponseDto.java
- com.chc853.book.springboot.web.dto.PostsResponseDto
+com/chc853/book/springboot/web/IndexController.java
+ com.chc853.book.springboot.web.IndexController
+com/chc853/book/springboot/config/WebConfig.java
+ com.chc853.book.springboot.config.WebConfig
 com/chc853/book/springboot/config/auth/dto/SessionUser.java
  com.chc853.book.springboot.config.auth.dto.SessionUser
 com/chc853/book/springboot/config/auth/dto/OAuthAttributes.java
@@ -13,16 +15,16 @@ com/chc853/book/springboot/config/auth/dto/OAuthAttributes.java
 com/chc853/book/springboot/web/dto/PostsSaveRequestDto.java
  com.chc853.book.springboot.web.dto.PostsSaveRequestDto
  com.chc853.book.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
-com/chc853/book/springboot/web/IndexController.java
- com.chc853.book.springboot.web.IndexController
+com/chc853/book/springboot/config/auth/SecurityConfig.java
+ com.chc853.book.springboot.config.auth.SecurityConfig
 com/chc853/book/springboot/web/PostsApiController.java
  com.chc853.book.springboot.web.PostsApiController
 com/chc853/book/springboot/config/auth/CustomOAuth2UserService.java
  com.chc853.book.springboot.config.auth.CustomOAuth2UserService
 com/chc853/book/springboot/domain/user/Role.java
  com.chc853.book.springboot.domain.user.Role
-com/chc853/book/springboot/Application.java
- com.chc853.book.springboot.Application
+com/chc853/book/springboot/web/dto/PostsResponseDto.java
+ com.chc853.book.springboot.web.dto.PostsResponseDto
 com/chc853/book/springboot/domain/user/User.java
  com.chc853.book.springboot.domain.user.User
  com.chc853.book.springboot.domain.user.User$UserBuilder
@@ -30,16 +32,22 @@ com/chc853/book/springboot/domain/posts/PostsRepository.java
  com.chc853.book.springboot.domain.posts.PostsRepository
 com/chc853/book/springboot/web/HelloController.java
  com.chc853.book.springboot.web.HelloController
+com/chc853/book/springboot/config/auth/LoginUserArgumentResolver.java
+ com.chc853.book.springboot.config.auth.LoginUserArgumentResolver
 com/chc853/book/springboot/web/dto/HelloResponseDto.java
  com.chc853.book.springboot.web.dto.HelloResponseDto
 com/chc853/book/springboot/domain/BaseTimeEntity.java
  com.chc853.book.springboot.domain.BaseTimeEntity
 com/chc853/book/springboot/web/dto/PostsListResponseDto.java
  com.chc853.book.springboot.web.dto.PostsListResponseDto
+com/chc853/book/springboot/config/auth/LoginUser.java
+ com.chc853.book.springboot.config.auth.LoginUser
 com/chc853/book/springboot/domain/posts/Posts.java
  com.chc853.book.springboot.domain.posts.Posts
  com.chc853.book.springboot.domain.posts.Posts$PostsBuilder
 com/chc853/book/springboot/service/PostsService.java
  com.chc853.book.springboot.service.PostsService
-com/chc853/book/springboot/config/auth/SecurityConfig.java
- com.chc853.book.springboot.config.auth.SecurityConfig
+com/chc853/book/springboot/config/JpaConfig.java
+ com.chc853.book.springboot.config.JpaConfig
+com/chc853/book/springboot/Application.java
+ com.chc853.book.springboot.Application
