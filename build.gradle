@@ -35,6 +35,7 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-mustache')
     compile('org.springframework.boot:spring-boot-starter-oauth2-client')
     compile('org.springframework.session:spring-session-jdbc')
+    compile('org.mariadb.jdbc:mariadb-java-client')
 
     testCompile('org.springframework.security:spring-security-test')
     //gradle 5 사용시 아래와 같은 lombok 설정으로...

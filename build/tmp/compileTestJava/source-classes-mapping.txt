@@ -1,10 +1,10 @@
-com/chc853/book/springboot/HelloControllerTest.java
- com.chc853.book.springboot.HelloControllerTest
+com/chc853/book/springboot/web/PostsApiControllerTest.java
+ com.chc853.book.springboot.web.PostsApiControllerTest
 com/chc853/book/springboot/web/dto/HelloResponseDtoTest.java
  com.chc853.book.springboot.web.dto.HelloResponseDtoTest
 com/chc853/book/springboot/domain/posts/PostsRepositoryTest.java
  com.chc853.book.springboot.domain.posts.PostsRepositoryTest
-com/chc853/book/springboot/web/PostsApiControllerTest.java
- com.chc853.book.springboot.web.PostsApiControllerTest
 com/chc853/book/springboot/web/IndexControllerTest.java
  com.chc853.book.springboot.web.IndexControllerTest
+com/chc853/book/springboot/HelloControllerTest.java
+ com.chc853.book.springboot.HelloControllerTest
