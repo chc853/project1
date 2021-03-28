@@ -26,7 +26,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="d3844f3e-1030-4e3d-b9f4-23d4a1a59dd2">
-        <schema name="chc853_test_springboot2_webservice" object-types="view, function, procedure, index, column, constraint, dataset trigger, table" />
+        <schema name="chc853_test_springboot2_webservice" object-types="view, function, procedure, table" />
       </connection>
     </loaded-nodes>
   </component>
