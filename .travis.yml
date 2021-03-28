@@ -21,14 +21,26 @@ before_deploy:
 
 deploy:
   - provider: s3
-    access_key_id: $AWS_ACCESS_KEY
-    secret_access_key: $AWS_SECRET_KEY
-    bucket: chc853-springboot-build
+    access_key_id: $AWS_ACCESS_KEY # Travis repo setting에 설정된 값, IAM 값
+    secret_access_key: $AWS_SECRET_KEY # Travis repo setting에 설정된 값, IAM 값
+    bucket: chc853-springboot-build # S3 bucket
     region: ap-northeast-2
     skip_cleanup: true
-    acl: private
-    local_dir: deploy
+    acl: private #zip 파일 접근을 private으로
+    local_dir: deploy # before_deploy에서 생성한 디렉토리
     wait-until-deployed: true
+
+  - provider: codedeploy
+      access_key_id: $AWS_ACCESS_KEY # Travis repo setting에 설정된 값, IAM 값
+      secret_access_key: $AWS_SECRET_KEY # Travis repo setting에 설정된 값, IAM 값
+      bucket: chc853-springboot-build # S3 bucket
+      key: chc853-springboot2-webservice.zip #빌드 파일을 압축해서 전달
+      bundle_type: zip
+      application: chc853-springboot2-service #웹 콘솔에서 등록한 codedeploy 애플리케이션
+      deployment_group: chc853-springboot2-webservice #웹 콘솔에서 등록한 codedeploy 배포 그룹
+      region: ap-northeast-2
+      wait-until-deployed: true
+
 
 #CI 실행완료시 메일로 알림
 notifications:
