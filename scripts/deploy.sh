@@ -7,7 +7,7 @@ echo "> build 파일 복사"
 
 cp $REPOSITORY/zip/*.jar $REPOSITORY/
 
-echo "> 현재 구종중인 애플리세니션 pid 확인"
+echo "> 현재 구종중인 애플리케이션 pid 확인"
 
 CURRENT_PID=$(pgrep -fl project1 | grep jar | awk '{print $1}')
 
@@ -23,7 +23,7 @@ fi
 
 echo "> 새 애플리케이션 배포"
 
-JAR_NAME=$(ls -tr $REPOSITORY/ | grep jar | tail -n 1)
+JAR_NAME=$(ls -tr $REPOSITORY/*.jar | tail -n 1)
 
 echo "> JAR Name: $JAR_NAME"
 
