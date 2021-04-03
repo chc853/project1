@@ -26,14 +26,17 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="d3844f3e-1030-4e3d-b9f4-23d4a1a59dd2">
-        <schema name="chc853_test_springboot2_webservice" object-types="view, function, procedure, table" />
+        <schema name="chc853_test_springboot2_webservice" object-types="view, column, table, function, procedure" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="d3844f3e-1030-4e3d-b9f4-23d4a1a59dd2">
       <console name="chc853" type="STANDARD" schema="mysql" session="Main" />
-      <console name="chc853 1" type="STANDARD" schema="chc853_test_springboot2_webservice" session="Main"><![CDATA[select * from SPRING_SESSION;]]></console>
+      <console name="chc853 1" type="STANDARD" schema="chc853_test_springboot2_webservice" session="Main"><![CDATA[select * from user;
+
+update `user`
+set role = 'USER';]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
